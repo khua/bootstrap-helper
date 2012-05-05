@@ -21,7 +21,7 @@ module BootstrapHelper
 <!--[if gte IE 7 ]>
 <body class="#{class_attribute} ie" data-offset="50"><![endif]-->
 <!--[if !IE]>-->
-<body#{id_attribute} class="#{class_attribute} data-offset="50"">
+<body#{id_attribute} class="#{class_attribute}" data-offset="50">
 <!--<![endif]-->|)
 
     end
