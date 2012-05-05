@@ -17,11 +17,11 @@ module BootstrapHelper
       id_attribute = (@body_id)? " id=\"#{@body_id}-page\"" : ""
 
       raw(%Q|<!--[if lt IE 7 ]>
-<body class="#{class_attribute} ie6"><![endif]-->
+<body class="#{class_attribute} ie6" data-offset="50"><![endif]-->
 <!--[if gte IE 7 ]>
-<body class="#{class_attribute} ie"><![endif]-->
+<body class="#{class_attribute} ie" data-offset="50"><![endif]-->
 <!--[if !IE]>-->
-<body#{id_attribute} class="#{class_attribute}">
+<body#{id_attribute} class="#{class_attribute} data-offset="50"">
 <!--<![endif]-->|)
 
     end
