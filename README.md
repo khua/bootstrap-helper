@@ -26,7 +26,7 @@ gem 'bootstrap_helper', :git => "git://github.com/xdite/bootstrap-helper.git"
 
 edit your `config/application.rb `
 
-	SITE_NAME = "YOUR SITE NAME"
+	SITENAME = "YOUR SITE NAME"
 
 in  `application.html.erb`, replace `<title>` with 
 
